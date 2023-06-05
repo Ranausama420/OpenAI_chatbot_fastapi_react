@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #333;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .navbar-options {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-option {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-option i {
+    margin-right: 5px;
+  }
+  
+  .navbar-option span {
+    font-weight: bold;
+  }
+  
+  .navbar-option.active {
+    background-color: whitesmoke;
+    border: '1px solid';
+    padding: 5px 10px;
+
+  }
+  
