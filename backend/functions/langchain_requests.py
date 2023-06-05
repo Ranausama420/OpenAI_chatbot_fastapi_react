@@ -10,15 +10,6 @@ from langchain.prompts import PromptTemplate
 import pinecone
 from functions.config import OPENAI_API_KEY,PINECONE_INDEX_NAME,PINECONE_NAME_SPACE,PINECONE_API_KEY,PINECONE_API_ENV
 
-# Retrieve Enviornment Variables
-
-OPENAI_API_KEY = "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"
-PINECONE_INDEX_NAME="gpt4-pdf-chatbot-langchain"
-PINECONE_NAME_SPACE="pdf-test-5"
-PINECONE_API_KEY = "ea9bd77f-ec5b-4b4f-9e47-ecbb72c0c7cf"
-PINECONE_API_ENV = "asia-southeast1-gcp-free"
-
-
 
 def get_chat_response_pdf(message_input):
   """Input: message_input - A string containing a single question
