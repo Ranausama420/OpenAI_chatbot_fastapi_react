@@ -260,9 +260,9 @@ const FAQs: React.FC = () => {
             <div>
       {faq.answer.map((answer, answerIndex) => (
         <FAQAnswer key={answerIndex}>
-           <button onClick={() => handleClick(faq.question)}>
+           {/* <button onClick={}>
         <div><span><FaLink/></span></div>
-      </button>
+      </button> */}
       <h5><u>Ans: </u> {answerIndex + 1}</h5>
       <p>{answer}</p>
       <br></br>
