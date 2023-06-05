@@ -6,10 +6,7 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
-PINECONE_INDEX_NAME="gpt4-pdf-chatbot-langchain"
-PINECONE_NAME_SPACE="pdf-test-5"
-PINECONE_API_KEY = "ea9bd77f-ec5b-4b4f-9e47-ecbb72c0c7cf"
-PINECONE_API_ENV = "asia-southeast1-gcp-free"
+from functions.config import PINECONE_INDEX_NAME,PINECONE_NAME_SPACE,PINECONE_API_KEY,PINECONE_API_ENV
 
 import os
 dir=os.path.exists("MayJune23-LR.pdf")

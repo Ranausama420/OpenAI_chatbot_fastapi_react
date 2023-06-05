@@ -9,7 +9,7 @@ from database import engine, SessionLocal,Base
 from sqlalchemy.orm import Session
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
-from decouple import config
+# from decouple import config
 import openai
 
 
